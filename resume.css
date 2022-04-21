@@ -1,0 +1,19 @@
+h2{
+	text-decoration-line: underline;
+	text-decoration-style: dashed;
+	text-align: left;
+	color: darkblue;
+	background-color: beige;
+}
+h1{
+	font-size: 30px;
+	text-shadow: 1px 1px black;
+	font-style: bold;
+}
+b{
+	text-align: left;
+}
+img{
+	border-radius: 20%;
+	border: 5px solid white;
+}
