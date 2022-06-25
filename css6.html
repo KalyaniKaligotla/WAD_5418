@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css link demo</title>
+    <style>
+        #link1:link{
+            color:green;
+            text-decoration: none;
+        }
+        #link2:visited{
+            color: blue;
+            border-style: solid;
+            border-color: green;
+            padding:5px;
+            text-decoration: underline;
+            margin-top: 5px;
+        }
+        #link3:hover{
+            border-style: solid;
+            border-width: 5px;
+            border-color: red;
+            background-color: green;
+            text-decoration: underline;
+        }
+        
+        #link4:active{
+            background-color: green;
+            text-decoration: underline;
+            color:white;
+        }
+        h1{
+            font-size: 30px;
+            color: brown;
+        }
+        
+    </style>
+</head>
+<body>
+    <h1> link</h1>
+    <a href="#" id="link1">Link1</a><br>
+    <h1>visited</h1>
+    <a href="#" id="link2">Link2</a><br>
+    <h1>Hover</h1>
+    <a href="#" id="link3">Link3</a><br>
+    <h1>active</h1>
+    <a href="#" id="link4">Link4</a><br>
+    </body>
+</html>

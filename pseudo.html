@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>psuedo class and elements</title>
+    <style>
+        
+        p:first-child{
+            color:red;
+        }
+        p::first-line{
+            color:red;
+        }
+        p::selection{
+            color:green;
+        }
+    </style>
+</head>
+<body>
+
+    <div>
+    <p>Psuedo 1</p>
+    <p>Psuedo 2</p>
+    <a href="#">click here1</a>
+    <a href="#">Click here2</a>
+</div>
+<p>A pseudo-class is used to define a special state of an element.<br>
+
+For example, it can be used to:<br>
+
+Style an element when a user mouses over it<br>
+Style visited and unvisited links differently<br>
+Style an element when it gets focus</p>
+</body>
+</html>
